@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const corsOptions = {
-  origin: "http://localhost:5175",
+  origin: ["http://localhost:5175","https://reactrootingpractice-1.onrender.com"],
   credentials: true,
   optionSuccessStatus: 200
 };
